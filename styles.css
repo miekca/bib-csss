@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    background: rgb(220, 253, 220);
+    font-family: 'Montserrat', sans-serif;
+}
+.position {
+    top: 0;
+}
+.box {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 50px;
+    background: #fff9dc;
+    text-align: center;
+}
+/*h1 {
+    text-align: center;
+}*/
+a {
+    color:rgb(66, 106, 66);
+    text-decoration: none;
+}
+a:hover {
+    color:black
+}
+.intro {
+    color:rgb(131, 173, 119);
+}
+img {
+    border-radius: 28px;
+}
+fieldset {
+    border-radius: 28px;
+}
+.fieldset {
+    height: 230px;
+}
+h1 {
+    letter-spacing: 7px;
+}
+.contanier {
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+}
+.teather  {
+    display: flex;
+
+}
+/*.teather > .d {
+    width: 50%;
+
+}*/
+fieldset {
+    background-color: rgb(191, 231, 180);
+    border: none
+}
+legend {
+    color:rgb(75, 105, 67)
+}
+.table {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(240, 255, 243);
+    position: fixed;
+} 
+textarea {
+    width: 100%;
+    background: transparent ;
+    border: none;
+    border-bottom: 2px solid rgb(191, 231, 180);
+    outline: none;
+}
+input {
+    background: transparent
+}
+hr {
+    height: 2px;
+    background-color:rgb(167, 209, 155);
+    border: none;
+}
